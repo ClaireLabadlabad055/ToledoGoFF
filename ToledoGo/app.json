@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "ToledoGo",
+    "slug": "ToledoGo",
+    "scheme": "toledogo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#451A03"
+    },
+    "plugins": [
+      "expo-camera",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#451A03",
+          "image": "./assets/images/logo.png",
+          "imageWidth": 120,
+          "resizeMode": "contain",
+          "dark": {
+            "backgroundColor": "#451A03",
+            "image": "./assets/images/logo.png"
+          }
+        }
+      ]
+    ]
+  }
+}
